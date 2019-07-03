@@ -1,1 +1,1 @@
-export { default } from "/mnt/e/Blog/local/docs/.vuepress/enhanceApp.js"
+export { default } from "/Users/VanGogh/个人/Blog/local/docs/.vuepress/enhanceApp.js"
