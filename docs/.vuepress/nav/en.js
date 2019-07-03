@@ -1,19 +1,19 @@
 module.exports = [
   {
     text: 'Guide',
-    link: '/guide/',
+    link: '/en/guide/',
   },
   {
     text: 'Config Reference',
-    link: '/config/'
+    link: '/en/config/'
   },
   {
     text: 'Plugin',
-    link: '/plugin/'
+    link: '/en/plugin/'
   },
   {
     text: 'Theme',
-    link: '/theme/'
+    link: '/en/theme/'
   },
   {
     text: 'Learn More',
@@ -23,11 +23,11 @@ module.exports = [
         items: [
           {
             text: 'CLI',
-            link: '/api/cli.html'
+            link: '/en/api/cli.html'
           },
           {
             text: 'Node',
-            link: '/api/node.html'
+            link: '/en/api/node.html'
           },
         ]
       },
@@ -36,15 +36,15 @@ module.exports = [
         items: [
           {
             text: 'Design Concepts',
-            link: '/miscellaneous/design-concepts.html'
+            link: '/en/miscellaneous/design-concepts.html'
           },
           {
             text: 'FAQ',
-            link: '/faq/',
+            link: '/en/faq/',
           },
           {
             text: 'Glossary',
-            link: '/miscellaneous/glossary.html'
+            link: '/en/miscellaneous/glossary.html'
           },
         ]
       },
@@ -53,7 +53,7 @@ module.exports = [
         items: [
           {
             text: 'Migrate from 0.x',
-            link: '/miscellaneous/migration-guide.html'
+            link: '/en/miscellaneous/migration-guide.html'
           },
           {
             text: 'Changelog',

@@ -4,7 +4,8 @@
   "name": "docs",
   "description": "docs of VuePress",
   "scripts": {
-    "dev": "vuepress dev docs --temp .temp",
+    "deploy": "bash deploy.sh",
+    "dev": "vuepress dev docs --open --temp .temp",
     "build": "vuepress build docs --temp .temp",
     "view-info": "vuepress view-info docs --temp .temp",
     "show-help": "vuepress --help"
