@@ -1,17 +1,36 @@
-``` bash
-# 安装
-yarn global add vuepress # 或者：npm install -g vuepress
+# vuepress-theme-reco-demo
 
-# 新建一个 markdown 文件
-echo '# Hello VuePress!' > README.md
+Blog demo for vuepress-theme-reco
 
-# 开始写作
-vuepress dev .
+## Branch
 
-# 构建静态文件
-vuepress build .
+|branch|vuepress|vuepress-theme-reco|
+|-|:-:|:-:|
+|demo/0.x|0.x|0.x|
+|demo/1.x|1.x|1.x|
+
+## Use
+
+```bash
+npm install vuepress-theme-reco-cli
+
+reco-cli init my-blog
+
+cd my-blog
+npm install
+
+npm run dev
 ```
 
-::: warning 注意
-请确保你的 Node.js 版本 >= 8.6。
-:::
+if yarn, you can do this way:
+
+```bash
+yarn add vuepress-theme-reco-cli
+
+reco-cli init my-blog
+
+cd my-blog
+yarn install
+
+yarn dev
+```
