@@ -1,17 +1,11 @@
 ---
 home: true
-heroImage: /hero.png
-heroImageStyle: {
-  display: block,
-  width: '100%',
-  maxWidth: '600px',
-  margin: '9rem auto 2rem',
-  background: '#fff',
-  borderRadius: '1rem',
+bgImageStyle: {
+  boxShadow: '0 10px 10px -10px #000'
 }
 isShowTitleInHome: false
-actionText: Guide
-actionLink: /views/other/guide
+actionText: 阳明先生
+actionLink: /views/others/guide
 features:
 - title: Yesterday
   details: 开发一款看着开心、写着顺手的 vuepress 博客主题

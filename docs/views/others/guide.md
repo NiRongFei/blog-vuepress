@@ -1,6 +1,10 @@
 ---
-title: vuepress-theme-reco
+title: 主题介绍
 date: 2019-04-09
+tags:
+  - vue
+categories:
+  - 前端
 ---
 
 ![vuepress](https://img.shields.io/badge/vuepress-0.14.8-brightgreen.svg)
@@ -13,7 +17,9 @@ date: 2019-04-09
 3. 你可以打开 [午后南杂](http://recoluan.gitlab.io) 来查看效果。
 :::
 
-## Use
+<!-- more -->
+
+## 使用
 
 **Build**
 
@@ -35,7 +41,7 @@ npm run dev
 yarn dev
 ```
 
-## Play Together
+## 版本
 
 ### 0.x
 

@@ -1,6 +1,7 @@
 module.exports = {
   title: '青青子衿 悠悠我心',
   description: '阳明的个人博客',
+  host: 'localhost',
   port: 9999,
   dest: '../vuepress',
   head: [
@@ -11,7 +12,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
+      { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
       // {
       //   text: '联系我',
       //   icon: 'reco-message',
@@ -37,13 +38,13 @@ module.exports = {
     },
     author: '阳明先生',
     huawei: false,
-    lastUpdated: 'Last Updated',
+    lastUpdated: '上次更新',
     logo: '/head.png',
     record: '',
     search: true,
     searchMaxSuggestions: 10,
     sidebar: 'auto',
-    startYear: '2019',
+    startYear: '2016',
     type: 'blog'
     // 密钥配置
     // keyPage: {
@@ -60,5 +61,8 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: ['@vuepress/medium-zoom', 'flowchart']
+  plugins: [
+    ['@vuepress/medium-zoom', true],
+    ['flowchart', true]
+  ]
 }
