@@ -3,7 +3,6 @@ module.exports = {
   description: '阳明的个人博客',
   host: 'localhost',
   port: 9999,
-  dest: '../vuepress',
   head: [
     ['link', { rel: 'icon', href: '/logo.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
