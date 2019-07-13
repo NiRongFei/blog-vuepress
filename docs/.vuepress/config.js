@@ -1,6 +1,6 @@
 module.exports = {
-  title: '青青子衿 悠悠我心',
-  description: '阳明的个人博客',
+  title: '知行合一',
+  description: '知之真切笃实处即是行 行之明觉精察处即是知',
   host: 'localhost',
   port: 9999,
   dest: 'docs/.vuepress/dist',
@@ -39,7 +39,7 @@ module.exports = {
     author: '阳明先生',
     huawei: false,
     lastUpdated: '上次更新',
-    logo: '/head.png',
+    logo: '/avatar.png',
     record: '',
     search: true,
     searchMaxSuggestions: 10,
