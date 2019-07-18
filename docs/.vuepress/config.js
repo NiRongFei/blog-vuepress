@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
+      { text: '时间轴', link: '/timeline/', icon: 'reco-date' }
       // {
       //   text: '联系我',
       //   icon: 'reco-message',
@@ -61,8 +61,5 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: [
-    ['@vuepress/medium-zoom', true],
-    ['flowchart', true]
-  ]
+  plugins: [['@vuepress/medium-zoom', true], ['flowchart', true]]
 }
