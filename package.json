@@ -5,7 +5,7 @@
   "author": "Niko",
   "scripts": {
     "deploy": "bash deploy.sh",
-    "dev": "vuepress dev docs --open",
+    "serve": "vuepress dev docs --open",
     "build": "vuepress build docs"
   },
   "devDependencies": {
