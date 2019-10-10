@@ -1,5 +1,7 @@
 ---
 home: true
+heroImage: /avatar.png
+heroImageStyle: {}
 bgImageStyle: {
   boxShadow: '0 10px 10px -10px #000'
 }
