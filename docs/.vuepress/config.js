@@ -34,6 +34,12 @@ module.exports = {
         text: '标签'
       }
     },
+    // 密钥配置
+    // keyPage: {
+    //   keys: ['1208'],
+    //   color: '#1E90FF',
+    //   lineColor: '#1E90FF'
+    // },
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间轴', link: '/timeline/', icon: 'reco-date' }
@@ -62,11 +68,5 @@ module.exports = {
       appKey: 'FNsaruds1fk5TgLFhQ0e1Fc3',
       placeholder: '知行合一'
     }
-    // 密钥配置
-    // keyPage: {
-    //   keys: ['your password'],
-    //   color: '#42b983',
-    //   lineColor: '#42b983'
-    // },
   }
 }

@@ -1,11 +1,13 @@
 ---
 home: true
 heroImage: /avatar.png
-heroImageStyle: {}
+isShowTitleInHome: false
+bgImage: '/banner.png'
 bgImageStyle: {
+  height: '500px',
   boxShadow: '0 10px 10px -10px #000'
 }
-isShowTitleInHome: false
+faceImage: '/avatar.png'
 actionText: 阳明先生
 actionLink: /views/others/guide
 features:
