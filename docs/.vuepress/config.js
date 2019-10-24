@@ -42,19 +42,8 @@ module.exports = {
     // },
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间轴', link: '/timeline/', icon: 'reco-date' }
-      // {
-      //   text: '联系我',
-      //   icon: 'reco-message',
-      //   items: [
-      //     { text: 'NPM', link: 'https://www.npmjs.com/~reco_luan', icon: 'reco-npm' },
-      //     { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
-      //     { text: '简书', link: 'https://www.jianshu.com/u/cd674a19515e', icon: 'reco-jianshu' },
-      //     { text: 'CSDN', link: 'https://blog.csdn.net/recoluan', icon: 'reco-csdn' },
-      //     { text: '博客圆', link: 'https://www.cnblogs.com/luanhewei/', icon: 'reco-bokeyuan' },
-      //     { text: 'WeChat', link: 'https://mp.weixin.qq.com/s/mXFqeUTegdvPliXknAAG_A', icon: 'reco-wechat' }
-      //   ]
-      // }
+      { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
+      { text: 'GitHub', link: 'https://github.com/NiRongFei', icon: 'reco-github' }
     ],
     themePicker: {
       color1: '#FF4500',
@@ -66,7 +55,8 @@ module.exports = {
     valineConfig: {
       appId: 'whppHI8DkmobI7y024L9igwz-9Nh9j0Va',
       appKey: 'FNsaruds1fk5TgLFhQ0e1Fc3',
-      placeholder: '知行合一'
+      placeholder: '知行合一',
+      avatar: 'mp'
     }
   }
 }
