@@ -1,7 +1,7 @@
 ---
 home: true
-heroImage: /avatar.png
 isShowTitleInHome: false
+heroImage: /avatar.png
 bgImage: '/banner.png'
 bgImageStyle: {
   height: '500px',
