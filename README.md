@@ -1,4 +1,4 @@
-<h1 align="center">阳明的个人博客</h1>
+<h1 align="center">阳明先生的个人博客</h1>
 
 <div align="center">
   <img src="https://img.shields.io/badge/vuepress-1.0.4-brightgreen.svg" alt="vuepress">
