@@ -6,13 +6,16 @@ module.exports = {
   theme: 'reco',
   title: '知行合一',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico', type: 'image/x-icon' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   markdown: {
     lineNumbers: true
   },
-  plugins: [['@vuepress/medium-zoom', true], ['flowchart', true]],
+  plugins: [
+    ['@vuepress/medium-zoom', true],
+    ['flowchart', true]
+  ],
   themeConfig: {
     author: '阳明先生',
     huawei: false,
@@ -46,7 +49,7 @@ module.exports = {
       {
         title: 'vuepress-theme-reco',
         desc: 'A simple and beautiful vuepress Blog & Doc theme.',
-        avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
+        avatar: 'https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png',
         link: 'https://vuepress-theme-reco.recoluan.com'
       }
     ],
@@ -59,7 +62,7 @@ module.exports = {
       color1: '#FF4500',
       color2: '#FF8C00',
       color3: '#1E90FF',
-      color4: '#32CD32',
+      color4: '#32CD32'
     },
     // 评论配置
     valineConfig: {
