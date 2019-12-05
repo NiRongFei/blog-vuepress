@@ -1,4 +1,5 @@
 module.exports = {
+  base: '/blog',
   description: '知之真切笃实处即是行 行之明觉精察处即是知',
   dest: 'docs/.vuepress/dist',
   host: 'localhost',
@@ -10,7 +11,8 @@ module.exports = {
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   markdown: {
-    lineNumbers: true
+    lineNumbers: true,
+    extractHeaders: ['h2', 'h3', 'h4']
   },
   plugins: [
     ['@vuepress/medium-zoom', true],
