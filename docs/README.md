@@ -7,7 +7,6 @@ bgImageStyle: {
   height: '500px',
   boxShadow: '0 10px 10px -10px #000'
 }
-faceImage: '/avatar.png'
 actionText: 阳明先生
 actionLink: /views/others/guide
 features:
