@@ -20,7 +20,7 @@ module.exports = {
   ],
   themeConfig: {
     author: '阳明先生',
-    authAvatar: '/avatar.png',
+    authorAvatar: '/avatar.png',
     huawei: false,
     lastUpdated: '上次更新',
     logo: '/avatar.png',
