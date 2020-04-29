@@ -1,6 +1,8 @@
 ---
 home: true
+navbar: true
 isShowTitleInHome: true
+# heroText: 知行合一
 # heroImage: /avatar.png
 bgImage: '/banner.png'
 bgImageStyle: {
