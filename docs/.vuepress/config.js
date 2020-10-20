@@ -15,6 +15,7 @@ module.exports = {
     ['@vuepress-reco/vuepress-plugin-screenfull', true],
     ['@vuepress/medium-zoom', true],
     ['flowchart', true],
+    ['ribbon', true],
   ],
   locales: {
     '/': {
@@ -32,21 +33,22 @@ module.exports = {
   themeConfig: {
     author: '阳明先生',
     authorAvatar: '/avatar.png',
+    codeTheme: 'tomorrow',
     huawei: false,
     lastUpdated: '上次更新',
-    logo: '/avatar.png',
+    logo: '/logo.png',
     mode: 'auto',
     modePicker: true,
     record: '',
     search: true,
     searchMaxSuggestions: 10,
-    sidebar: 'auto',
+    subSidebar: 'auto',
     sidebarDepth: 2,
     startYear: '2016',
     type: 'blog',
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
-      { text: '时间轴', link: '/timeLine/', icon: 'reco-date' },
+      { text: '归档', link: '/timeline/', icon: 'reco-date' },
       { text: 'GitHub', link: 'https://github.com/NiRongFei', icon: 'reco-github' },
     ],
     friendLink: [
