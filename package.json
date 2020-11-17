@@ -11,7 +11,7 @@
   "devDependencies": {
     "@vuepress-reco/vuepress-plugin-screenfull": "^1.0.1",
     "@vuepress/plugin-medium-zoom": "^1.0.3",
-    "vuepress": "^1.7.1",
+    "vuepress": "^1.5.0",
     "vuepress-plugin-flowchart": "^1.4.3",
     "vuepress-plugin-ribbon": "^1.0.2",
     "vuepress-theme-reco": "^1.5.7"
